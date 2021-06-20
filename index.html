@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="app.js" defer></script>
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <section class="content">
+      <div class="text">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+
+      <div class="form">
+        <div class="form__header">
+          <h2>Try it free 7 days <span>then $20/mo. thereafter</span></h2>
+        </div>
+        <form class="form__content" method="GET" action="/">
+          <div class="form__control">
+            <input
+              placeholder="First Name"
+              id="first-name"
+              name="first-name"
+              type="text"
+              required
+            />
+            <label for="first-name">First Name</label>
+            <img src="images/icon-error.svg" alt="" />
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M8.75 4.75H15.25C17.4591 4.75 19.25 6.54086 19.25 8.75V15.25C19.25 17.4591 17.4591 19.25 15.25 19.25H8.75C6.54086 19.25 4.75 17.4591 4.75 15.25V8.75C4.75 6.54086 6.54086 4.75 8.75 4.75Z"
+              ></path>
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M7.75 12.75C7.75 12.75 9 15.25 12 15.25C15 15.25 16.25 12.75 16.25 12.75"
+              ></path>
+              <circle cx="14" cy="10" r="1" fill="currentColor"></circle>
+              <circle cx="10" cy="10" r="1" fill="currentColor"></circle>
+            </svg>
+
+            <small></small>
+          </div>
+
+          <div class="form__control">
+            <input
+              placeholder="Last Name"
+              id="last-name"
+              name="last-name"
+              type="text"
+              required
+            />
+            <label for="last-name">Last Name</label>
+            <img src="images/icon-error.svg" alt="" />
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M8.75 4.75H15.25C17.4591 4.75 19.25 6.54086 19.25 8.75V15.25C19.25 17.4591 17.4591 19.25 15.25 19.25H8.75C6.54086 19.25 4.75 17.4591 4.75 15.25V8.75C4.75 6.54086 6.54086 4.75 8.75 4.75Z"
+              ></path>
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M7.75 12.75C7.75 12.75 9 15.25 12 15.25C15 15.25 16.25 12.75 16.25 12.75"
+              ></path>
+              <circle cx="14" cy="10" r="1" fill="currentColor"></circle>
+              <circle cx="10" cy="10" r="1" fill="currentColor"></circle>
+            </svg>
+
+            <small></small>
+          </div>
+
+          <div class="form__control">
+            <input
+              placeholder="Email Address"
+              id="email"
+              name="email"
+              type="email"
+            />
+            <label for="email">Email Address</label>
+            <img src="images/icon-error.svg" alt="" />
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M8.75 4.75H15.25C17.4591 4.75 19.25 6.54086 19.25 8.75V15.25C19.25 17.4591 17.4591 19.25 15.25 19.25H8.75C6.54086 19.25 4.75 17.4591 4.75 15.25V8.75C4.75 6.54086 6.54086 4.75 8.75 4.75Z"
+              ></path>
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M7.75 12.75C7.75 12.75 9 15.25 12 15.25C15 15.25 16.25 12.75 16.25 12.75"
+              ></path>
+              <circle cx="14" cy="10" r="1" fill="currentColor"></circle>
+              <circle cx="10" cy="10" r="1" fill="currentColor"></circle>
+            </svg>
+
+            <small></small>
+          </div>
+
+          <div class="form__control">
+            <input
+              placeholder="Password"
+              id="pass"
+              name="pass"
+              type="password"
+            />
+            <label for="pass">Password</label>
+            <img src="images/icon-error.svg" alt="" />
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M8.75 4.75H15.25C17.4591 4.75 19.25 6.54086 19.25 8.75V15.25C19.25 17.4591 17.4591 19.25 15.25 19.25H8.75C6.54086 19.25 4.75 17.4591 4.75 15.25V8.75C4.75 6.54086 6.54086 4.75 8.75 4.75Z"
+              ></path>
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M7.75 12.75C7.75 12.75 9 15.25 12 15.25C15 15.25 16.25 12.75 16.25 12.75"
+              ></path>
+              <circle cx="14" cy="10" r="1" fill="currentColor"></circle>
+              <circle cx="10" cy="10" r="1" fill="currentColor"></circle>
+            </svg>
+
+            <small></small>
+          </div>
+
+          <button class="btn" type="submit">Claim your free trial</button>
+          <h3>
+            By clicking the button, you are agreeing to our
+            <span>Terms and Services</span>
+          </h3>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">itzaur</a>.
+      </p>
+    </footer>
+  </body>
+</html>
